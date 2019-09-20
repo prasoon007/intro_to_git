@@ -45,7 +45,12 @@ INTRO TO GIT BRANCHING
 
 #adding a branch
 
+command:- git checkout -b "name of new branch" //and it automatically switched to new branch
+command:- git branch //list all the branches
+
 #changing a branch
+
+command:- git checkout "branch name"
 
 #merging a branch
 
