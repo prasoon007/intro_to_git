@@ -54,11 +54,27 @@ command:- git checkout "branch name"
 
 #merging a branch
 
+command:- git merge "branch name" -m "message" //merge will merge the specified branch to the branch we are currently on
+
 #removing a branch
 
-
-
-
+command:- git branch -d "branch name"  // this will remove all the branches
 
 
 ======================================================================
+
+INTRO THE GITHUB
+
+#adding remote location to our hit
+command:- git remote add "name of repository(default)" "address of repository"
+
+#adding branch to remote
+command:- git push origin master
+
+#removing branch from remote
+command:- git push --delete origin "name of branch" 
+ 
+=======================================================================
+
+completed basics for now:)
+
